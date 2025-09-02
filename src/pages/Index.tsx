@@ -181,7 +181,7 @@ export default function Index() {
                 </div>
               </div>
               <CardContent className="p-6">
-                <h3 className="font-inter font-bold text-2xl mb-3">Центр "АРГО"</h3>
+                <h3 className="font-inter font-bold text-2xl mb-3">Центр "Сансара"</h3>
                 <p className="font-open-sans text-gray-600 mb-4">
                   VIP-комплекс с индивидуальными программами и персональным подходом
                 </p>
@@ -238,7 +238,7 @@ export default function Index() {
                 </div>
               </div>
               <CardContent className="p-6">
-                <h3 className="font-inter font-bold text-2xl mb-3">Центр "Надежда"</h3>
+                <h3 className="font-inter font-bold text-2xl mb-3">Центр "Древо жизни"</h3>
                 <p className="font-open-sans text-gray-600 mb-4">
                   Современный центр с полным комплексом медицинских услуг
                 </p>
