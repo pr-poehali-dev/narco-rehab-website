@@ -295,7 +295,7 @@ export default function Index() {
                 </div>
               </div>
               <CardContent className="p-6">
-                <h3 className="font-inter font-bold text-2xl mb-3">Центр "Новый путь"</h3>
+                <h3 className="font-inter font-bold text-2xl mb-3">Центр "?????"</h3>
                 <p className="font-open-sans text-gray-600 mb-4">
                   Качественное лечение по доступным ценам с проверенными методиками
                 </p>
