@@ -578,7 +578,7 @@ export default function Index() {
               <div className="font-open-sans space-y-2 text-gray-300">
                 <p>+7 (495) 123-45-67</p>
                 <p>info@medrehab.ru</p>
-                <p>г. Москва, ул. Здоровья, д. 15</p>
+                <p>г. Краснодар</p>
               </div>
             </div>
           </div>
