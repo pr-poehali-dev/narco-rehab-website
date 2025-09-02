@@ -29,7 +29,7 @@ export default function Index() {
       {/* Hero Section */}
       <section className="pt-20 pb-16 bg-gradient-to-b from-slate-50 to-white">
         <div className="container mx-auto px-4">
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
+          <div className="grid lg:grid-cols-2 gap-12 items-center rounded-none bg-teal-50">
             <div className="space-y-8">
               <h1 className="font-inter font-bold text-5xl lg:text-6xl leading-tight">
                 Путь к <span className="text-primary">новой жизни</span><br />
@@ -62,7 +62,7 @@ export default function Index() {
       </section>
 
       {/* Services Section */}
-      <section id="services" className="py-20">
+      <section id="services" className="py-20 bg-teal-50">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="font-inter font-bold text-4xl mb-4">Наши услуги</h2>
@@ -158,7 +158,7 @@ export default function Index() {
       </section>
 
       {/* Rehabilitation Centers Section */}
-      <section id="centers" className="py-20 bg-slate-50">
+      <section id="centers" className="py-20 bg-teal-50">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="font-inter font-bold text-4xl mb-4">Наши реабилитационные центры</h2>
@@ -191,7 +191,7 @@ export default function Index() {
                     <Icon name="CheckCircle" size={16} className="text-primary" />
                     <span className="font-open-sans text-sm">Индивидуальные палаты люкс</span>
                   </div>
-                  <div className="flex items-center space-x-3">
+                  <div className="grid lg:grid-cols-2 gap-12 items-center bg-teal-50">
                     <Icon name="CheckCircle" size={16} className="text-primary" />
                     <span className="font-open-sans text-sm">Персональный врач-нарколог</span>
                   </div>
@@ -501,7 +501,7 @@ export default function Index() {
                 </div>
                 <div>
                   <h3 className="font-inter font-semibold text-xl mb-2">Телефон</h3>
-                  <p className="font-open-sans text-gray-600">+7 (495) 123-45-67</p>
+                  <p className="font-open-sans text-gray-600">+7 (666) 666-66-66</p>
                   <p className="font-open-sans text-sm text-gray-500">Круглосуточно, без выходных</p>
                 </div>
               </div>
@@ -512,8 +512,8 @@ export default function Index() {
                 </div>
                 <div>
                   <h3 className="font-inter font-semibold text-xl mb-2">Адрес</h3>
-                  <p className="font-open-sans text-gray-600">г. Москва, ул. Здоровья, д. 15</p>
-                  <p className="font-open-sans text-sm text-gray-500">5 минут от м. Соколиники</p>
+                  <p className="font-open-sans text-gray-600">г. Краснодар, ул. Калинина,354</p>
+                  <p className="font-open-sans text-sm text-gray-500">5 минут от центра города </p>
                 </div>
               </div>
               
