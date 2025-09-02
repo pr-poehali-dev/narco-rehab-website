@@ -11,9 +11,7 @@ export default function Index() {
       <nav className="fixed top-0 w-full bg-white/90 backdrop-blur-sm z-50 border-b">
         <div className="container mx-auto px-4 py-4">
           <div className="flex items-center justify-between">
-            <div className="font-inter font-bold text-xl text-primary">
-              МедРехаб
-            </div>
+            <div className="font-inter font-bold text-xl text-primary">Вахид.ру</div>
             <div className="hidden md:flex space-x-8">
               <a href="#services" className="font-open-sans hover:text-primary transition-colors">Услуги</a>
               <a href="#about" className="font-open-sans hover:text-primary transition-colors">О клинике</a>
