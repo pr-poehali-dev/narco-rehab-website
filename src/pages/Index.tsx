@@ -54,7 +54,7 @@ export default function Index() {
               <img 
                 src="/img/d08ac05c-9385-4980-8afe-3ecb95408483.jpg" 
                 alt="Медицинский центр реабилитации" 
-                className="w-full rounded-2xl shadow-2xl"
+                className="w-full rounded-2xl shadow-2xl object-cover"
               />
             </div>
           </div>
