@@ -157,8 +157,248 @@ export default function Index() {
         </div>
       </section>
 
+      {/* Rehabilitation Centers Section */}
+      <section id="centers" className="py-20 bg-slate-50">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-16">
+            <h2 className="font-inter font-bold text-4xl mb-4">Наши реабилитационные центры</h2>
+            <p className="font-open-sans text-xl text-gray-600">Выберите подходящий центр для комфортного лечения</p>
+          </div>
+          
+          <div className="grid lg:grid-cols-2 gap-8">
+            {/* Center 1 - Премиум */}
+            <Card className="overflow-hidden hover:shadow-xl transition-all duration-300">
+              <div className="relative">
+                <img 
+                  src="/img/661b193e-846a-48f9-a5af-7ff954ae23f5.jpg" 
+                  alt="Реабилитационный центр Премиум" 
+                  className="w-full h-64 object-cover"
+                />
+                <div className="absolute top-4 right-4">
+                  <div className="bg-primary text-white px-3 py-1 rounded-full text-sm font-inter font-semibold">
+                    Премиум
+                  </div>
+                </div>
+              </div>
+              <CardContent className="p-6">
+                <h3 className="font-inter font-bold text-2xl mb-3">Центр "Возрождение"</h3>
+                <p className="font-open-sans text-gray-600 mb-4">
+                  VIP-комплекс с индивидуальными программами и персональным подходом
+                </p>
+                
+                <div className="space-y-3 mb-6">
+                  <div className="flex items-center space-x-3">
+                    <Icon name="CheckCircle" size={16} className="text-primary" />
+                    <span className="font-open-sans text-sm">Индивидуальные палаты люкс</span>
+                  </div>
+                  <div className="flex items-center space-x-3">
+                    <Icon name="CheckCircle" size={16} className="text-primary" />
+                    <span className="font-open-sans text-sm">Персональный врач-нарколог</span>
+                  </div>
+                  <div className="flex items-center space-x-3">
+                    <Icon name="CheckCircle" size={16} className="text-primary" />
+                    <span className="font-open-sans text-sm">Программа "Семейная терапия"</span>
+                  </div>
+                  <div className="flex items-center space-x-3">
+                    <Icon name="CheckCircle" size={16} className="text-primary" />
+                    <span className="font-open-sans text-sm">СПА-процедуры и фитнес</span>
+                  </div>
+                </div>
+                
+                <div className="border-t pt-4">
+                  <div className="flex justify-between items-center mb-4">
+                    <span className="font-inter font-semibold text-lg">от 150 000 ₽/мес</span>
+                    <div className="text-sm text-gray-500">30-90 дней</div>
+                  </div>
+                  <div className="flex flex-col space-y-2">
+                    <Button className="bg-primary hover:bg-primary/90">
+                      <Icon name="Phone" size={16} className="mr-2" />
+                      +7 (495) 555-01-01
+                    </Button>
+                    <Button variant="outline" className="border-primary text-primary hover:bg-primary hover:text-white">
+                      Подробнее о центре
+                    </Button>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+
+            {/* Center 2 - Комфорт */}
+            <Card className="overflow-hidden hover:shadow-xl transition-all duration-300">
+              <div className="relative">
+                <img 
+                  src="/img/1ce2cdc1-864b-425a-b376-f85213933ca7.jpg" 
+                  alt="Реабилитационный центр Комфорт" 
+                  className="w-full h-64 object-cover"
+                />
+                <div className="absolute top-4 right-4">
+                  <div className="bg-green-600 text-white px-3 py-1 rounded-full text-sm font-inter font-semibold">
+                    Комфорт
+                  </div>
+                </div>
+              </div>
+              <CardContent className="p-6">
+                <h3 className="font-inter font-bold text-2xl mb-3">Центр "Надежда"</h3>
+                <p className="font-open-sans text-gray-600 mb-4">
+                  Современный центр с полным комплексом медицинских услуг
+                </p>
+                
+                <div className="space-y-3 mb-6">
+                  <div className="flex items-center space-x-3">
+                    <Icon name="CheckCircle" size={16} className="text-primary" />
+                    <span className="font-open-sans text-sm">2-местные комфортные палаты</span>
+                  </div>
+                  <div className="flex items-center space-x-3">
+                    <Icon name="CheckCircle" size={16} className="text-primary" />
+                    <span className="font-open-sans text-sm">Групповая и индивидуальная терапия</span>
+                  </div>
+                  <div className="flex items-center space-x-3">
+                    <Icon name="CheckCircle" size={16} className="text-primary" />
+                    <span className="font-open-sans text-sm">Программа "12 шагов"</span>
+                  </div>
+                  <div className="flex items-center space-x-3">
+                    <Icon name="CheckCircle" size={16} className="text-primary" />
+                    <span className="font-open-sans text-sm">Медикаментозная поддержка</span>
+                  </div>
+                </div>
+                
+                <div className="border-t pt-4">
+                  <div className="flex justify-between items-center mb-4">
+                    <span className="font-inter font-semibold text-lg">от 85 000 ₽/мес</span>
+                    <div className="text-sm text-gray-500">30-60 дней</div>
+                  </div>
+                  <div className="flex flex-col space-y-2">
+                    <Button className="bg-primary hover:bg-primary/90">
+                      <Icon name="Phone" size={16} className="mr-2" />
+                      +7 (495) 555-02-02
+                    </Button>
+                    <Button variant="outline" className="border-primary text-primary hover:bg-primary hover:text-white">
+                      Подробнее о центре
+                    </Button>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+
+            {/* Center 3 - Стандарт */}
+            <Card className="overflow-hidden hover:shadow-xl transition-all duration-300">
+              <div className="relative">
+                <img 
+                  src="/img/d08ac05c-9385-4980-8afe-3ecb95408483.jpg" 
+                  alt="Реабилитационный центр Стандарт" 
+                  className="w-full h-64 object-cover"
+                />
+                <div className="absolute top-4 right-4">
+                  <div className="bg-blue-600 text-white px-3 py-1 rounded-full text-sm font-inter font-semibold">
+                    Стандарт
+                  </div>
+                </div>
+              </div>
+              <CardContent className="p-6">
+                <h3 className="font-inter font-bold text-2xl mb-3">Центр "Новый путь"</h3>
+                <p className="font-open-sans text-gray-600 mb-4">
+                  Качественное лечение по доступным ценам с проверенными методиками
+                </p>
+                
+                <div className="space-y-3 mb-6">
+                  <div className="flex items-center space-x-3">
+                    <Icon name="CheckCircle" size={16} className="text-primary" />
+                    <span className="font-open-sans text-sm">4-местные комфортные палаты</span>
+                  </div>
+                  <div className="flex items-center space-x-3">
+                    <Icon name="CheckCircle" size={16} className="text-primary" />
+                    <span className="font-open-sans text-sm">Базовая медицинская программа</span>
+                  </div>
+                  <div className="flex items-center space-x-3">
+                    <Icon name="CheckCircle" size={16} className="text-primary" />
+                    <span className="font-open-sans text-sm">Групповые занятия с психологом</span>
+                  </div>
+                  <div className="flex items-center space-x-3">
+                    <Icon name="CheckCircle" size={16} className="text-primary" />
+                    <span className="font-open-sans text-sm">Трудотерапия и досуг</span>
+                  </div>
+                </div>
+                
+                <div className="border-t pt-4">
+                  <div className="flex justify-between items-center mb-4">
+                    <span className="font-inter font-semibold text-lg">от 45 000 ₽/мес</span>
+                    <div className="text-sm text-gray-500">30-45 дней</div>
+                  </div>
+                  <div className="flex flex-col space-y-2">
+                    <Button className="bg-primary hover:bg-primary/90">
+                      <Icon name="Phone" size={16} className="mr-2" />
+                      +7 (495) 555-03-03
+                    </Button>
+                    <Button variant="outline" className="border-primary text-primary hover:bg-primary hover:text-white">
+                      Подробнее о центре
+                    </Button>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+
+            {/* Center 4 - Эконом */}
+            <Card className="overflow-hidden hover:shadow-xl transition-all duration-300">
+              <div className="relative">
+                <img 
+                  src="/img/3e4bfee0-2ac5-40c4-9bbc-6347eebdfcea.jpg" 
+                  alt="Реабилитационный центр Эконом" 
+                  className="w-full h-64 object-cover"
+                />
+                <div className="absolute top-4 right-4">
+                  <div className="bg-gray-600 text-white px-3 py-1 rounded-full text-sm font-inter font-semibold">
+                    Эконом
+                  </div>
+                </div>
+              </div>
+              <CardContent className="p-6">
+                <h3 className="font-inter font-bold text-2xl mb-3">Центр "Свобода"</h3>
+                <p className="font-open-sans text-gray-600 mb-4">
+                  Базовая программа реабилитации с необходимым медицинским сопровождением
+                </p>
+                
+                <div className="space-y-3 mb-6">
+                  <div className="flex items-center space-x-3">
+                    <Icon name="CheckCircle" size={16} className="text-primary" />
+                    <span className="font-open-sans text-sm">6-местные палаты</span>
+                  </div>
+                  <div className="flex items-center space-x-3">
+                    <Icon name="CheckCircle" size={16} className="text-primary" />
+                    <span className="font-open-sans text-sm">Стандартная медицинская помощь</span>
+                  </div>
+                  <div className="flex items-center space-x-3">
+                    <Icon name="CheckCircle" size={16} className="text-primary" />
+                    <span className="font-open-sans text-sm">Групповые сессии поддержки</span>
+                  </div>
+                  <div className="flex items-center space-x-3">
+                    <Icon name="CheckCircle" size={16} className="text-primary" />
+                    <span className="font-open-sans text-sm">Базовое питание</span>
+                  </div>
+                </div>
+                
+                <div className="border-t pt-4">
+                  <div className="flex justify-between items-center mb-4">
+                    <span className="font-inter font-semibold text-lg">от 25 000 ₽/мес</span>
+                    <div className="text-sm text-gray-500">21-30 дней</div>
+                  </div>
+                  <div className="flex flex-col space-y-2">
+                    <Button className="bg-primary hover:bg-primary/90">
+                      <Icon name="Phone" size={16} className="mr-2" />
+                      +7 (495) 555-04-04
+                    </Button>
+                    <Button variant="outline" className="border-primary text-primary hover:bg-primary hover:text-white">
+                      Подробнее о центре
+                    </Button>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+          </div>
+        </div>
+      </section>
+
       {/* Statistics */}
-      <section className="py-20 bg-slate-50">
+      <section className="py-20">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="font-inter font-bold text-4xl mb-4">Результаты нашей работы</h2>
@@ -297,13 +537,14 @@ export default function Index() {
               <CardContent className="space-y-4">
                 <Input placeholder="Ваше имя" className="font-open-sans" />
                 <Input placeholder="Номер телефона" className="font-open-sans" />
-                <Textarea placeholder="Опишите вашу ситуацию (необязательно)" className="font-open-sans" />
+                <Textarea placeholder="Ваш вопрос или описание ситуации" className="font-open-sans min-h-[100px]" />
                 <Button className="w-full bg-primary hover:bg-primary/90 py-3">
                   <Icon name="Send" size={20} className="mr-2" />
                   Отправить заявку
                 </Button>
                 <p className="font-open-sans text-xs text-gray-500 text-center">
-                  Нажимая кнопку, вы соглашаетесь с политикой конфиденциальности
+                  Нажимая кнопку, вы соглашаетесь с политикой конфиденциальности.<br/>
+                  Мы перезвоним в течение 15 минут для консультации.
                 </p>
               </CardContent>
             </Card>
