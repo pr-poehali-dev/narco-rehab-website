@@ -557,7 +557,7 @@ export default function Index() {
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-3 gap-8">
             <div>
-              <div className="font-inter font-bold text-2xl mb-4">МедРехаб</div>
+              <div className="font-inter font-bold text-2xl mb-4">я люблю Вахида.ру</div>
               <p className="font-open-sans text-gray-300 mb-4">
                 Профессиональная наркологическая помощь и реабилитация. Возвращаем людям здоровье и веру в себя.
               </p>
